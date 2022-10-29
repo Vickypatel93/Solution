@@ -1,0 +1,15 @@
+Idea is to create databases for wx_data and yld_data separately.
+and create table with the same name as file name in the respected database.
+
+Provide the database credentials in config.py file and also in stats.py
+We used MySQL for database.
+
+Run -- go to folder code and type command python3 main.py
+code for problem 1 and 2 is in file createdDatabase.py
+code for problem 3 is in file stats.py
+code for problem 4 is in main.py
+
+1. Created two database(using MySQL server) names as the folder name(1. wx_data, 2. yld_data) and table name as the text file name(for example - USC00110072).
+2. Creted result table in database "wx_data" for stats.
+3. Keeping both the required data into data folder.
+4. All the api's are in main.py, I have added sample result of stats in result folder.
